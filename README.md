@@ -52,6 +52,10 @@ Close is a combination of a function and the lexical environment in which it was
 
 5. Why do we need super() in an extended class?
 
+super() is used to access and call functions on an objects parents.
+
+
+
 ## Project Set up
 
 Follow these steps to set up and work on your project:
