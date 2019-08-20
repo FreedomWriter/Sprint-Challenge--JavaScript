@@ -34,11 +34,9 @@ const tyrannosaurus = {
   length: `12m`,
   period: `Late Cretaceous`,
   roar: function(){
-    console.log(`RAWERSRARARWERSARARARRRR!`); 
+    return`RAWERSRARARWERSARARARRRR!`; 
   }
 };
-
-  
 
 const stegosaurus = {
   name: `stegosaurus`,
@@ -55,7 +53,6 @@ const velociraptor = {
   length: `1.8m`,
   period: `Late Cretaceous`
 };
-
 
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
 

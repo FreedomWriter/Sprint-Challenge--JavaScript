@@ -30,9 +30,12 @@ class CubeMaker extends CuboidMaker {
     constructor(length, width, height) {
         super(length, width, height);
     }
+    surfaceArea() {
+      return 6 * (this.height * this.width);
+    }
 }
 
-const stretchCube = new CubeMaker(4,5,5);
+const stretchCube = new CubeMaker(5,5,5);
 
-console.log(stretchCube.volume()); // 100
-console.log(stretchCube.surfaceArea()); // 130
+console.log(stretchCube.volume()); // 125
+console.log(stretchCube.surfaceArea()); // 150
